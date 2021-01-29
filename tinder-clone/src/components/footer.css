@@ -1,0 +1,34 @@
+.swipe_buttons {
+  position: fixed;
+  bottom: 3vh;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+/* * .MuiIconButton-root this is like (*) but for icons in iconButton component*/
+
+.swipe_buttons .MuiIconButton-root {
+  background-color: white;
+  box-shadow: 0 10px 53px rgba(0, 0, 0, 0.3);
+}
+
+.replay_button {
+  color: #f5b748 !important;
+}
+
+.close_button {
+  color: #ec5e6f !important;
+}
+
+.star_button {
+  color: #62b4f9 !important;
+}
+
+.favorite_button {
+  color: #76e2b3 !important;
+}
+
+.flash_button {
+  color: #915dd1 !important;
+}

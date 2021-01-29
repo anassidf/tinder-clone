@@ -1,0 +1,28 @@
+.card {
+  border-radius: 20px;
+  position: relative;
+  background-color: #fff;
+  width: 400px;
+  padding: 20px;
+  max-width: 75vw;
+  height: 50vh;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+.tinder_cards_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.swipe {
+  position: absolute;
+}
+
+/* *note : if u want to put element above another one do the styling for position elemens above each other then do the magic style (the container : reletive , element: absolute)*/
+
+.card_name {
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  left: 7px;
+}

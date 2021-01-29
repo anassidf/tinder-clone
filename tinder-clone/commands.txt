@@ -1,0 +1,15 @@
+1. npm install @material-ui/core
+2. npm install @material-ui/icons
+3. npm i react-tinder-card  (if doesnt work try command number 4)
+4. npm i --save react-tinder-card --legacy-peer-deps
+5. sudo npm i -g nodemon (will install nodemon globally so u can use whenever u want)
+6. npm i cors
+7. heroku logs --tail (this command used after pushing are code into heroku)
+8.npm i -g firebase-tools (u need to install them befor deploying the fronend to firebase)
+or sudo npm i -g firebase-tools
+
+
+--------------
+
+1. firebase login 
+2. firebase init
